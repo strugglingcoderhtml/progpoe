@@ -2,7 +2,6 @@
 package userregistrationsystem;
 
 import java.util.Scanner;
-import userregistrationsystem.Login;
 
 public class userregistrationsystem {
 
@@ -61,16 +60,22 @@ public class userregistrationsystem {
         System.out.print("Please enter your first name: ");
         firstName = input.nextLine();
 
-        if (firstName.isEmpty()) {
+        if (firstName.trim().isEmpty()) {
+
             System.out.println("First name cannot be empty.");
+
         } else {
 
             System.out.print("Please enter your last name: ");
             lastName = input.nextLine();
 
-            if (lastName.isEmpty()) {
+            if (lastName.trim().isEmpty()) {
+
                 System.out.println("Last name cannot be empty.");
+
             } else {
+
+                System.out.println("First name and last name successfully captured.");
 
                 Login login = new Login(firstName, lastName);
 
@@ -150,3 +155,4 @@ public class userregistrationsystem {
         input.close();
     }
 }
+
