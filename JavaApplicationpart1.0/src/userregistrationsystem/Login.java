@@ -6,7 +6,6 @@ public class Login {
     private String firstName;
     private String lastName;
 
-    // Variables used to check the login details
     private String storedUsername;
     private String storedPassword;
 
@@ -15,14 +14,11 @@ public class Login {
         this.lastName = lname;
     }
 
-    // Checks that the username has an underscore
-    // and is no more than five characters
     public boolean checkUserName(String username) {
 
         return username.contains("_") && username.length() <= 5;
     }
 
-    // Checks the password complexity
     public boolean checkPasswordComplexity(String password) {
 
         boolean passwordOkay = false;
@@ -58,13 +54,6 @@ public class Login {
         return passwordOkay;
     }
 
-    /*
-     * Regular expression used to check a South African cellphone
-     * number written using the international +27 country code.
-     *
-     * Regex research adapted from:
-     * GeeksforGeeks - Regular Expressions in Java.
-     */
     public boolean checkCellPhoneNumber(String number) {
 
         String regex = "^\\+27\\d{9}$";
@@ -72,7 +61,6 @@ public class Login {
         return number.matches(regex);
     }
 
-    // Registers the user if all the information is correct
     public String registerUser(String username, String password,
                                String cellNumber, String fName,
                                String lName) {
@@ -92,7 +80,6 @@ public class Login {
             return "Cell phone number incorrectly formatted or does not contain international code.";
         }
 
-        // Save the registration details for login
         this.firstName = fName;
         this.lastName = lName;
         this.cellPhoneNumber = cellNumber;
@@ -102,14 +89,12 @@ public class Login {
         return "Registration successful.";
     }
 
-    // Checks if the login details match the registered details
     public boolean loginUser(String username, String password) {
 
         return username.equals(storedUsername)
                 && password.equals(storedPassword);
     }
 
-    // Returns the correct login message
     public String returnLoginStatus(String username, String password) {
 
         if (loginUser(username, password)) {

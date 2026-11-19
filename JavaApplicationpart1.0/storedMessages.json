@@ -1,8 +1,83 @@
 [
   {
     "messageID": "1428777375",
+    "messageNumber": "1",
+    "sender": "rori tshali",
     "messageHash": "14:1:hellohello",
     "recipient": "+27124356789",
-    "message": "hello"
+    "message": "hello",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "1066177729",
+    "messageNumber": "3",
+    "sender": "rori tshali",
+    "messageHash": "10:3:whereearly",
+    "recipient": "+278123456787",
+    "message": "where are you, youre late, i asked you to be early",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "2590554055",
+    "messageNumber": "6",
+    "sender": "rory tshali",
+    "messageHash": "25:6:okyou",
+    "recipient": "+27123456789",
+    "message": "ok im leaving without you",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "7710663885",
+    "messageNumber": "7",
+    "sender": "rory tshali",
+    "messageHash": "77:7:wheretime",
+    "recipient": "+27123456789",
+    "message": "where are you, youre late, i asked you to be on time",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "5627348788",
+    "messageNumber": "9",
+    "sender": "rory tshali",
+    "messageHash": "56:9:yooohooogate",
+    "recipient": "+27123456789",
+    "message": "yooohooo im at the gate",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "6532094302",
+    "messageNumber": "10",
+    "sender": "rory tshali",
+    "messageHash": "65:10:hi,now",
+    "recipient": "+27123456789",
+    "message": "hi, youre late, youre suppossed to be here by now",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "3018408280",
+    "messageNumber": "11",
+    "sender": "yo yoyo",
+    "messageHash": "30:11:hellohello",
+    "recipient": "+27123456789",
+    "message": "hello",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "4520932951",
+    "messageNumber": "12",
+    "sender": "rori tshali",
+    "messageHash": "45:12:hiiiiidude",
+    "recipient": "+27812345678",
+    "message": "hiiiii dude",
+    "messageStatus": "Stored"
+  },
+  {
+    "messageID": "3046940217",
+    "messageNumber": "13",
+    "sender": "rori tshali",
+    "messageHash": "30:13:whatsgang",
+    "recipient": "+27812345678",
+    "message": "whats good gang",
+    "messageStatus": "Stored"
   }
 ]

@@ -1,4 +1,3 @@
-
 package userregistrationsystem;
 
 import java.util.Scanner;
@@ -155,4 +154,3 @@ public class userregistrationsystem {
         input.close();
     }
 }
-
